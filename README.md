@@ -46,17 +46,17 @@ gcc -o client client.c -lpthread
 
 
 ### Example : 
-Server started listening on port 8080...
-Client 1 connected.
-Client 2 connected.
+- Server started listening on port 8080...
+- Client 1 connected.
+- Client 2 connected.
 
-Enter command: LIST
-Received: Client 1 is at socket 3.
-Client 2 is at socket 4.
+- Enter command: LIST
+- Received: Client 1 is at socket 3.
+- Client 2 is at socket 4.
 
-Enter command: SEND
-Enter client index to send message to: 2
-Enter message: Hello, Client 2!
+- Enter command: SEND
+- Enter client index to send message to: 2
+- Enter message: Hello, Client 2!
 
 
 
